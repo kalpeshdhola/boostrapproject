@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Project</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Aboreto&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="image/logo.png" alt="logo" width="300px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown mx-4">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">WEDDING</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">WADDING</a></li>
+                <li><a class="dropdown-item" href="#">ANGAGEMENT</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-4">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">PORTRAIT</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">SENIOR</a></li>
+                <li><a class="dropdown-item" href="#">ANIMAL</a></li>
+                <li><a class="dropdown-item" href="#">FAMILY</a></li>
+                <li><a class="dropdown-item" href="#">HEADSHOT</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-4">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">ABOUT</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">ABOUT</a></li>
+                <li><a class="dropdown-item" href="#">PORTFOLIO</a></li>
+                <li><a class="dropdown-item" href="#">BLOG</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-4 ">
+              <button type="button" class="btn">CONTECT US</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- BANNER -->
+
+  <section class="banner">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/banner-img2.jpg" class="w-100" alt="banner1">
+          <div class=" text-center position-absolute top-50 start-50 translate-middle">
+            <h2 class="text-white fw-bolder display-2">BRIDAL</h2>
+            <P class="text-white display-4">PHOTOGRAPHY</P>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/banner-img3.jpg" class="w-100 h-100" alt="banner2">
+          <div class="text-center position-absolute top-50 start-50 translate-middle">
+            <h2 class="text-white fw-bolder display-2">HALDI</h2>
+            <P class="text-white display-4">CEREMONY</P>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/banner-img4.jpg" class="w-100 h-100" alt="banner3">
+          <div class="text-center position-absolute top-50 start-50 translate-middle">
+            <h2 class="text-white fw-bolder display-2">RING</h2>
+            <P class="text-white display-4">CEREMONY</P>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/banner-img5.jpg" class="w-100 h-100" alt="banner4">
+          <div class="text-center position-absolute top-50 start-50 translate-middle">
+            <h2 class="text-white fw-bolder display-2">COUPLE</h2>
+            <P class="text-white display-4">PHOTOGRAPHY</P>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/banner-img6.jpg" class="w-100 h-100" alt="banner4">
+          <div class="text-center position-absolute top-50 start-50 translate-middle">
+            <h2 class="text-white fw-bolder display-2">WEDDING</h2>
+            <P class="text-white display-4">PHOTOGRAPHY</P>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/banner-img7.jpg" class="w-100" alt="banner4">
+          <div class="text-center position-absolute top-50 start-50 translate-middle">
+            <h2 class="text-white fw-bolder display-2">NEWLY MARRIED COUPLE</h2>
+            <p class="text-white display-4">PHOTOGRAPHY</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+
+  <section class="about">
+    <div class="container py-5 my-5">
+      <div class="about-title text-center">
+        <h5 class="text-white">KEVIN PHOTO</h5>
+        <h1 class="text-white">INDIA'S TOP WEDDING PHOTOGRAPHERS</h1>
+        <h5 class="text-white">BOLD, VIBRANT WEDDING PHOTOS</h5>
+      </div>
+      <div class="about-img py-5">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="about-items  text-bg-dark position-relative">
+              <img src="image/about-img1.jpg" class="w-100 h-100" alt="about-img1">
+              <div class="about-content position-absolute bottom-0 w-100">
+                <h5 class=" text-center">Merriage Time</h5>
+                <div class="about-hover position-absolute top-0 text-center">
+                  <p class="">The great marriages are partnerships. It can’t be a great marriage without being a
+                    partnership</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="about-items  text-bg-dark position-relative">
+              <img src="image/about-img2.jpg" class="w-100 h-100" alt="about-img1">
+              <div class="about-content position-absolute bottom-0 w-100">
+                <h5 class=" text-center">Haldi Ceremony</h5>
+                <div class="about-hover position-absolute top-0 text-center">
+                  <p class="">Congratulations on the most beautiful day in a lifetime! Wishing you and your wife endless
+                    love and happiness</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="about-items  text-bg-dark position-relative">
+              <img src="image/about-img3.jpg" class="w-100 h-100" alt="about-img1">
+              <div class="about-content position-absolute bottom-0 w-100">
+                <h5 class=" text-center">Music Ceremony</h5>
+                <div class="about-hover position-absolute top-0 text-center">
+                  <p class="">Here’s wishing all the musicians, singers, songwriters, and everybody who loves music a
+                    very happy World Music Day!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-content text-center">
+        <h5 class="text-white">INCLUSIVE, CHILL, FUN</h5>
+        <h1 class="text-white">WEDDING PHOTOGRAPHERS YOU CAN HAVE FUN WITH</h1>
+        <h6 class="text-white">kevin Photo is an LGBTQ+ and BIPOC friendly professional photography studio. As wedding
+          photographers, we
+          love to work with couples of all different backgrounds and beliefs. We are committed to providing a friendly,
+          fun, and unique experience for the wedding photos of clients of all classes, ethnicities, gender identities,
+          and abilities. Our passion is getting to know you and bringing your beauty and personality to light in a
+          lasting way!</h6>
+      </div>
+
+      <div class="about-button  text-center position-relative mt-4">
+        <a href="#" class="btn position-relative mt-5">VIEW OUR PRICING<i
+            class="bi bi-chevron-double-right position-absolute"></i>
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- VALUES -->
+
+  <section class="values my-0">
+    <div class="container">
+      <div class="values-title my-3">
+        <h1 class=" text-center">VALUES</h1>
+      </div>
+      <div class="transparency">
+        <div class="transparency-content px-5 mx-5 px-xs-1 px-mx-1">
+          <h2 class="text-white text-center">TRANSPARENCY</h2>
+          <p class="text-white text-center">Our collections don’t have any extra, hidden fees.<br>
+            We include digital galleries with free full-resolution, non-watermarked downloads in every collection.
+            Scroll to the bottom of this page to see pricing details of our Wedding Photography Collections.</p>
+        </div>
+        <div class="transparency-img">
+          <img src="image/values-img1.jpg" alt="destination" width="100%" height="350px">
+        </div>
+      </div>
+
+      <div class="travel my-5">
+        <div class="travel-content px-5 mx-5">
+          <h2 class="text-white text-center">TRAVEL</h2>
+          <p class="text-white text-center">We love travel and destination weddings! Most of our collections have no
+            added fee for weddings anywhere in Colorado.<br>
+            Our top collections includes travel to anywhere in the contiguous USA!<br>
+            Our travel fees for anywhere else in the world are competitive.</p>
+        </div>
+        <div class="travel-button text-center position-relative my-5">
+          <a href="#" class="btn position-relative">CONNECT WITH US TODAY TO GET A CUSTOM QUOTE FOR YOUR DESTINATION
+            WEDDING<i class="bi bi-chevron-double-right position-absolute"></i>
+          </a>
+        </div>
+        <div class="travel-img">
+          <img src="image/values-img2.jpg" alt="destination" width="100%" height="350px">
+        </div>
+      </div>
+
+      <div class="trust">
+        <div class="trust-content px-5 mx-5">
+          <h2 class="text-white text-center">TRUST</h2>
+          <p class="text-white text-center">TRUST
+            We know that you place an incredible amount of trust in the vendors your hire for your wedding day.<BR>
+            We respect and honor that with timeliness, professionalism, and dedication.</p>
+        </div>
+        <div class="trust-img">
+          <img src="image/values-img3.jpg" alt="destination" width="100%" height="350px">
+        </div>
+      </div>
+
+      <div class="comment my-5">
+        <div class="container">
+          <div class="comment-inner row bg-white p-4">
+            <div class="col-xxl-1">
+              <img src="image/customer.webp" alt="happyclient" width="100px" height="100px">
+            </div>
+            <div class="col-xxl-11 ps-5 pt-3">
+              <blockquote class="blockquote">
+                <p>“Kevin have such a great eye for capturing the perfect shots! We are forever grateful for the moments
+                  they captured!”</p>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                Ranbir & Alia
+              </figcaption>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <section class="planning">
+    <div class="container">
+
+
+      <div class="planning-content text-center p-5">
+        <h2 class="text-white">Need Help Planning and Documenting Your Proposal?</h2>
+        <p class="text-white">We can help you plan this special event, including location, outfits, and sneaking around.
+          We will help you document your partner’s reaction, and can get some fun portraits afterwards.</p>
+        <div class="planning-button text-center position-relative pt-4">
+          <a href="#" class="btn position-relative text-center">CONTACT US TODAY FOR A CUSTOM QUOTE<i
+              class="bi bi-envelope position-absolute"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="planning-img my-5">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="image/planning-img1.jpg" class="w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-white">SPECIAL EVENT</h5>
+                <p class="text-white">To achieve great things, two things are needed: a plan and not quite enough time
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/planning-img2.jpg" class="w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-white">SPECIAL LOCATION</h5>
+                <p class="text-white">Our first journey is to find that special place for us</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/planning-img3.jpg" class="w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-white">SELECT CLOTHING</h5>
+                <p class="text-white">You can have anything you want in life if you dress for it</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/planning-img4.jpg" class="w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-white">DECORATION</h5>
+                <p class="text-white">One should never be the oldest thing in one's house</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PRICING -->
+
+  <section class="pricing my-5 pt-5">
+    <div class="container">
+      <div class="pricing-title text-center">
+        <h2>PRICING</h2>
+        <h2 class=" text-white">WEDDING PHOTOGRAPHY COLLECTIONS</h2>
+        <h5 class="my-3 text-white">At Kevin Photo we care about working with couples from all kinds of backgrounds for
+          their wedding photos.<br> This means we have <a href="#" class="text-decoration-none">collections for
+            everyone</a>.</h5>>
+        <h5 class=" text-white">All Kevin Photo collections include hand-edited full-resolution digital images in a
+          gorgeous online gallery.<br> Your gallery is easy to share and order prints from.</h5>>
+      </div>
+
+      <div class="pricing-content">
+        <div class="row">
+
+          <div class="col-xxl-4">
+            <div class="pricing-inner bg-white p-4">
+              <h3>COLLECTION1</h3>
+              <P>Full Day Coverage</P>
+              <div class="price d-flex">
+                <div class="col-xxl-1">
+                  <i class="bi bi-currency-dollar h3 h3"></i>
+                </div>
+                <div class="col-xxl-11">
+                  <H2>5500</H2>
+                </div>
+              </div>
+              <ul>
+                <li class="my-4 h5">10+ hours of coverage</li>
+                <li class="my-4 h5">Flexibility to cover your entire day!</li>
+                <li class="my-4 h5">2 photographers</li>
+                <li class="my-4 h5">Gorgeous Online Gallery with ~1000 hand-edited images</li>
+                <li class="my-4 h5">Complimentary half-day adventure engagement session ($1200 value)</li>
+                <li class="my-4 h5">Includes our travel to any destination in the continental US, plus discounted travel
+                </li>
+              </ul>
+              <div class="pricing-button text-center position-relative">
+                <button type="button" class="btn btn-lg px-5">CONNECT<i
+                    class="bi bi-caret-right-fill position-absolute"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-4">
+            <div class="pricing-inner bg-white p-4">
+              <h3>COLLECTION2</h3>
+              <P>Most Popular</P>
+              <div class="price d-flex">
+                <div class="col-xxl-1">
+                  <i class="bi bi-currency-dollar h3"></i>
+                </div>
+                <div class="col-xxl-11">
+                  <H2>4400</H2>
+                </div>
+                <ul>
+                  <li></li>
+                </ul>
+              </div>
+              <ul>
+                <li class="my-4 h5">8 hours of coverage</li>
+                <li class="my-4 h5">Capture all the important parts of your day</li>
+                <li class="my-4 h5">2 photographers</li>
+                <li class="my-4 h5">Gorgeous online gallery with ~800 hand-edited images</li>
+                <li class="my-4 h5">Complimentary 2 hour engagement session ($900 value)</li>
+                <li class="my-4 h5">Includes our travel to any destination in Colorado!</li>
+              </ul>
+              <div class="pricing-button text-center position-relative">
+                <button type="button" class="btn btn-lg px-5">CONNECT<i
+                    class="bi bi-caret-right-fill position-absolute"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-4">
+            <div class="pricing-inner bg-white p-4">
+              <h3>COLLECTION3</h3>
+              <P>Partial Day Coverage</P>
+              <div class="price d-flex">
+                <div class="col-xxl-1">
+                  <i class="bi bi-currency-dollar h3"></i>
+                </div>
+                <div class="col-xxl-11">
+                  <H2>3300</H2>
+                </div>
+              </div>
+              <ul>
+                <li class="my-4 h5">6 hours of coverage</li>
+                <li class="my-4 h5">Limited coverage for those with a tight schedule</li>
+                <li class="my-4 h5">2 photographers</li>
+                <li class="my-4 h5">Gorgeous online gallery with ~600 hand-edited images</li>
+                <li class="my-4 h5">Complimentary 1-hour engagement session ($450 value)</li>
+                <li class="my-4 h5">No travel fees for venues within 2 hours of Erie, CO</li>
+              </ul>
+              <div class="pricing-button text-center position-relative">
+                <button type="button" class="btn btn-lg px-5">CONNECT<i
+                    class="bi bi-caret-right-fill position-absolute"></i></button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- DATES -->
+
+  <section class="dates">
+    <div class="container">
+      <div class="dates-content text-center py-5">
+        <h2 class="mb-5">DATES</h2>
+        <h3 class="text-white">FIRST THINGS FIRST…</h3>
+        <h5 class="text-white mb-4">Kevin meet with all potential wedding clients before booking anything. We want to
+          make sure that we will have fun together!</h5>
+        <h3 class="text-white">BOOKING</h3>
+        <h5 class="text-white mb-4">Once you have decided that Kevin Photo is the perfect photographer for your wedding
+          day, we will send over a quote, contract, questionnaire, and payment plan. Everything is handled through an
+          easy, secure online system.</h5>
+        <h3 class="text-white">ENGAGEMENT SESSION</h3>
+        <h5 class="text-white mb-4">Before your session Kevin will send over her exclusive engagement session style
+          guide.</h5>
+        <h3 class="text-white">TIMELINE CONSULTATION</h3>
+        <h5 class="text-white mb-4">Kevin will meet with you in the months before your wedding to talk about your
+          timeline for the day. We want to make sure your special moments are timed to get the best lighting!</h5>
+        <h3 class="text-white">YOUR WEDDING DAY!</h3>
+        <h5 class="text-white mb-4">Kevin will arrive at your venue early, get set up, and plan some awesome shots!</h5>
+        <h3 class="text-white">PHOTO DELIVERY</h3>
+        <h5 class="text-white mb-5">Kevin Photo will have a handful of sneak peek images ready for you to share the day
+          after your wedding. Your full gallery of hand-edited photos will be delivered on your one-month anniversary.
+          Your photos will be displayed in a beautiful online gallery, with customizable privacy and sharing settings.
+          You and your guests will be able to order gorgeous prints and wall art straight from this gallery.</h5>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORM -->
+
+  <section class="form">
+    <div class="container">
+      <div class="form-inner">
+        <div class="form-content bg-dark p-2 p-md-5">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="first name" class="form-label text-white">
+                <h6>FIRST NAME</h6>
+              </label>
+              <input type=" first name" class="form-control" id="firstname" placeholder="Enter frist Name" required>
+              <div class="valid-feedback">
+                Great!
+              </div>
+              <div class="invalid-feedback">
+                Please enter your firstname
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="last name" class="form-label text-white">
+                <h6>LAST NAME</h6>
+              </label>
+              <input type="last name" class="form-control" id="lastname" placeholder="Enter last name" required>
+              <div class="valid-feedback">
+                Great!
+              </div>
+              <div class="invalid-feedback">
+                Please enter your lastname
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label text-white">
+              <h6>EMAIL ADDRESS</h6>
+            </label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your mail">
+          </div>
+
+          <div class="row">
+
+            <div class="col-md-6 mb-3">
+              <label class="form-label text-white">
+                <h6>CITY</h6>
+              </label>
+              <select class="form-select" aria-label="Disabled select example">
+                <option>Enter your city</option>
+                <option value="1">Surat</option>
+                <option value="2">Vadodra</option>
+                <option value="3">Ananad</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="areapin" class="form-label text-white">
+                <h6>PIN CODE</h6>
+              </label>
+              <input type="pincode" class="form-control" id="areapin" placeholder="Enter your pin" required>
+              <div class="valid-feedback">
+                Great!
+              </div>
+              <div class="invalid-feedback">
+                Please enter your area pin
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-md-6">
+              <label for="areapin" class="form-label text-white">
+                <h6>NUMBER</h6>
+              </label>
+              <input type="pincode" class="form-control" id="areapin" placeholder="Enter your number" required>
+              <div class="valid-feedback">
+                Great!
+              </div>
+              <div class="invalid-feedback">
+                Please enter your area pin
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="areapin" class="form-label text-white">
+                <h6>BISNESS NUMBER</h6>
+              </label>
+              <input type="pincode" class="form-control" id="areapin" placeholder="Enter your number" required>
+              <div class="valid-feedback">
+                Great!
+              </div>
+              <div class="invalid-feedback">
+                Please enter your area pin
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="row">
+            <div class="col-md-6">
+              <label class="form-label text-white">
+                <h6>Type of Photos Needed</h6>
+              </label>
+              <select class="form-select" aria-label="Disabled select example">
+                <option>Wedding Photography</option>
+                <option value="1">Engagement</option>
+                <option value="2">Senior</option>
+                <option value="3">Headshot</option>
+                <option value="3">Pet</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label text-white">
+                <h6>Where did you hear about us?</h6>
+              </label>
+              <select class="form-select" aria-label="Disabled select example">
+                <option>Facebook</option>
+                <option value="1">Instagram</option>
+                <option value="2">Website</option>
+              </select>
+            </div>
+
+
+
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="w-25">
+            <div class="footer-content">
+              <h2>Products</h2>
+              <ul>
+
+                <li><a href="#">New Products</a></li>
+                <li><a href="#">Best Sales</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Stores</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-25">
+            <div class="footer-content">
+              <h2>Our Company</h2>
+              <ul>
+
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Legal Notice</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Secure Payment</a></li>
+                <li><a href="#">Prices Drop</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-25">
+            <div class="footer-content">
+              <h2>My Account</h2>
+              <ul>
+
+                <li><a href="#">Legal Notice</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Secure Payment</a></li>
+                <li><a href="#">Prices Drop</a></li>
+                <li><a href="#">Best Sales</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-25">
+            <div class="footer-content">
+              <h2>Contact Us</h2>
+              <p>Demo Store <br>
+                42 Puffin Street 12345 Puffinville France <br>
+                United States</p><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="w-50">
+            <div class="copyright">
+              <a href="#">© 2022 - Photographers by kevin studieo™</a>
+            </div>
+          </div>
+          <div class="w-50">
+            <div class="footer-icon text-end">
+              <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

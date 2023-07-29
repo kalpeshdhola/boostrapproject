@@ -1,0 +1,26 @@
+@media(min-width:576px){
+    .values .values-title h1{
+        font-size: 80px;
+    }
+}
+@media(min-width:768px){}
+@media(min-width:992px){
+    .w-lg-2{
+        width: 50%;
+    }
+}
+@media(min-width:1200px){
+    .w-xl-3{
+        width: 33.33%;
+    }
+}
+@media(min-width:1400px){}
+@media(max-width:576px){
+    .form .form-inner{
+        padding: 20px 15px;
+    }
+
+    .values .values-title h1{
+        font-size: 80px;
+    }
+}
